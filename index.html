@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/Style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- popup model -->
+
+    <div class="popup">
+        <button id="close">&times;</button>
+        <div class="model_logo">
+            <img class="model_logo1" src="/imgs/logofooter.png" alt="JCER logo" />
+            <img class="model_logo2" src="/imgs/Visvesvaraya_Technological_University_logo.png" alt="VTU logo" />
+        </div>
+        <div class="middle">
+            <h>Jain College of Engineering and Research</h>
+            <p>(Approved by AICTE New Delhi, Afliated to VTU, Recognised by Govt. of Karnataka)</p>
+        </div>
+        <div class="end_div">
+            <p>Welcome To JCER</p>
+            <h>ADMISSIONS OPEN 2023-2024</h>
+        </div>
+    </div>
+    <!--Script-->
+    <script>window.addEventListener("load", function () {
+            setTimeout(
+                function open(event) {
+                    document.querySelector(".popup").style.display = "block";
+                },
+                1000
+            )
+        });
+
+
+        window.addEventListener("load", function () {
+            setTimeout(
+                function close(event) {
+                    document.querySelector(".popup").style.display = "none";
+                },
+                3000
+            )
+        });
+
+        document.querySelector("#close").addEventListener("click", function () {
+            document.querySelector(".popup").style.display = "none";
+        });
+    </script>
+    <!-- popup model end -->
+
+
+    <!-- Static navbar -->
+    <div class="navigation-bar">
+        <a href="/"><img class="navbar-logo" src="/imgs/logotop.png" alt="JCER logo"></a>
+        <span class="nav-contact"><i class="fa fa-envelope"></i> principal@jcer.in <i class="fa fa-phone"></i>
+            9448693987 / 8762190801
+        </span>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar"><i class="fa fa-bars" style="font-size: 22px;"></i></label>
+
+
+
+        <nav class="navbar">
+
+            <ul class="navbar-ul">
+                <li><a class="nav-links" href="/">Home </a></li>
+                <li><a class="nav-links" href="#">About <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-ul">
+
+                        <li><a class="dropdown-links" href="">Principal</a></li>
+                        <li><a class="dropdown-links" href="">Vision And Mission </a></li>
+                        <li><a class="dropdown-links" href="">Objectives </a></li>
+                        <li><a class="dropdown-links" href="">The JGI Team </a></li>
+                        <li><a class="dropdown-links" href="">The Chairman</a></li>
+
+
+                    </ul>
+
+
+                </li>
+                <li><a class="nav-links" href="#">Admission <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-ul">
+                        <li><a class="dropdown-links" href="">Notification </a></li>
+                        <li><a class="dropdown-links" href="">Intake And Fee Structure </a></li>
+                        <li><a class="dropdown-links" href="">Eligibility</a></li>
+
+
+                    </ul>
+
+                </li>
+                <li><a class="nav-links" href="#">Facilities <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-ul">
+                        <li><a class="dropdown-links" href="">Internet</a></li>
+                        <li><a class="dropdown-links" href="">Transport</a></li>
+                        <li><a class="dropdown-links" href="">Web Mail</a></li>
+                        <li><a class="dropdown-links" href="">FeedBack </a></li>
+
+                    </ul>
+
+
+
+                </li>
+                <li><a class="nav-links" href="">Placement Cell </a></li>
+                <li><a class="nav-links" href="#">Departments <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-ul">
+                        <li><a class="dropdown-links" href="civil.html">Civil Engineering</a></li>
+                        <li><a class="dropdown-links" href="cse.html">Computer Science Engineering</a></li>
+                        <li><a class="dropdown-links" href="ec.html">Electronics And Communication</a></li>
+                        <li><a class="dropdown-links" href="">Mechanical Engineering</a></li>
+                        <li><a class="dropdown-links" href="">AI And Machine Learning</a></li>
+                        <li><a class="dropdown-links" href="">Basic Science And Humanities</a></li>
+                        <li><a class="dropdown-links" href="">Administrative Office</a></li>
+
+
+                    </ul>
+
+
+
+                </li>
+                <li><a class="nav-links" href="">Library </a></li>
+                <li><a class="nav-links" href="">Contact Us </a></li>
+                <li><a class="nav-links" href="">Committee </a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- nav end -->
+
+
+
+
+    <!-- CAROUSEL START -->
+
+    <header>
+
+        <h1 style="text-align:center; color:white; background-color:#0060b1 ; font-size:30px">Welcome To JCER</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="/imgs/carouel/jcer1.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer2.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer3.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer4.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer5.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer6.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer7.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer9.jpg" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer10.jpg" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer11.jpg" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer12.jpg" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer13.jpg" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer14.jpg" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer15.jpg" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer16.jpg" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer17.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer18.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer19.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer20.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer21.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer22.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer23.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer24.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer25.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer26.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer27.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer28.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer29.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer30.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer31.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer32.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer33.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer34.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer35.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer36.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer37.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer38.png" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="/imgs/carouel/jcer39.png" alt="">
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </header>
+
+    <!-- CAROUSEL END -->
+
+
+
+
+    <!-- MARUEE -->
+
+    <div class="slidetext">
+        <Marquee>
+            <h2>
+                Note: "College offers management seats lesser than COMED-K Fees" "CET Code : E269"</h2>
+        </Marquee>
+        <h2>
+            <marquee behavior="alternate"><a href="https://forms.gle/RWwi6uk55Q3Sbg7b7" class="cet">Note: "Registration
+                    Link for MOCK CET Test 2022-23"</a></marquee>
+        </h2>
+
+        <h1>CET Code : E269</h1>
+    </div>
+
+    <!-- MARUEE END -->
+
+
+
+
+    <!-- branches start -->
+
+    <div class="card">
+        <div class="choose">
+            <h3>Choose Your Field of Study</h3>
+        </div>
+        <!-- branches -->
+
+        <div class="cardD">
+            <div class="c-card">
+                <div class="c-image">
+
+                    <img src="/imgs/cs.jpg" alt="image" />
+                </div>
+
+                <h4><a href="/cse">Computer Science & Engineering</a></h4>
+
+            </div>
+
+            <div class="c-card">
+                <div class="c-image">
+
+                    <img src="/imgs/cs.jpg" alt="image" />
+                </div>
+
+                <h4><a href="/cse">Computer Science & Engineering</a></h4>
+
+            </div>
+
+            <div class="c-card">
+                <div class="c-image">
+
+                    <img src="/imgs/cs.jpg" alt="image" />
+                </div>
+
+                <h4><a href="/cse">Computer Science & Engineering</a></h4>
+
+            </div>
+
+        </div>
+
+        <div class="cardD">
+            <div class="c-card">
+                <div class="c-image">
+
+                    <img src="/imgs/cs.jpg" alt="image" />
+                </div>
+
+                <h4><a href="/cse">Computer Science & Engineering</a></h4>
+
+            </div>
+
+            <div class="c-card">
+                <div class="c-image">
+
+                    <img src="/imgs/cs.jpg" alt="image" />
+                </div>
+
+                <h4><a href="/cse">Computer Science & Engineering</a></h4>
+
+            </div>
+
+            <div class="c-card">
+                <div class="c-image">
+
+                    <img src="/imgs/cs.jpg" alt="image" />
+                </div>
+
+                <h4><a href="/cse">Computer Science & Engineering</a></h4>
+
+            </div>
+
+        </div>
+        <div class="cardD">
+            <div class="c-card">
+                <div class="c-image">
+
+                    <img src="/imgs/cs.jpg" alt="image" />
+                </div>
+
+                <h4><a href="/cse">Computer Science & Engineering</a></h4>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- branches end -->
+
+
+
+
+    <!-- Welcome SEC -->
+
+    <section>
+        <h2>WELCOME TO JAIN COLLEGE OF ENGINEERING & RESEARCH </h2>
+        <div class="mid-content-1">
+            <video alt="video" src="imgs/banner2.mp4" autoPlay loop muted></video>
+            <p>At Jain College of Engineering and Research, Belagavi, we ensure that our students rise beyond the
+                average and set remarkable standards through novel thinking and creative abilities which are imbibed in
+                them during their learning years at our institution. We follow a unique blend of academic yet industry
+                friendly curriculum and innovative yet value driven culture building a strong foundation for our leaders
+                of tomorrow.</p>
+        </div>
+    </section>
+
+    <!-- Welcome END -->
+
+
+
+
+    <!-- Principal Sec -->
+
+    <section>
+        <h2>PRINCIPAL</h2>
+        <div class="mid-content-2">
+            <img src="/imgs/principal.jpg" alt="principal img">
+            <p>EDUCATION IS THE MOST POWERFUL WEAPON WHICH YOU CAN USE TO CHANGE THE WORLD. A good teacher enables a
+                student to understand, whereas a great teacher enables a student to realize. It is only when students go
+                through the cycle of studying, understanding and realizing they become good professionals and great
+                human beings.<a href="/Principal">Read More</a></p>
+        </div>
+    </section>
+
+    <!-- End Principal -->
+
+
+
+
+    <!-- COLLABORATIONS START -->
+
+    <section>
+        <h2>ALLIANCES AND AFFILIATION</h2>
+        <div class="mid-content-1">
+            <img src="/imgs/compny.png" alt="compny img">
+            <p>At Jain College of Engineering and Research we use state of the art resources to train our students to
+                meet the Industry requirements. The software and facilities available on the campus help students to
+                explore opportunities in various engineering fields. Microsoft Dreamspark Alliance, Cadence, Siemens
+                Solid Edge, Cadem, Autodesk are a few of the many resources available.
+            </p>
+        </div>
+    </section>
+
+    <!-- COLLABORATIONS END -->
+
+    <!-- RESENT EVNENTS START  -->
+
+
+<section>
+        <h2>RESENT EVNENTS</h2>
+        <div class="recent-events">
+           
+        </div>
+    </section>
+    <!-- RESENT EVNENTS END  -->
+
+
+    <!-- SHADOW SECTION -->
+
+    <div class="shadow-section">
+        <div class="inner-contenar">
+            <div class="icon">
+                <i class="fa fa-phone"></i>
+            </div>
+            <div class="content-inner">
+                <em>9448693987 / 8762190801 </em>
+            </div>
+        </div>
+
+
+        <div class="inner-contenar">
+            <div class="icon">
+                <i class="fa fa-map-marker"></i>
+            </div>
+            <div class="content-inner">
+                <em>Udyambag, Belagavi, Karnataka 590008.</em>
+            </div>
+        </div>
+
+
+        <div class="inner-contenar">
+            <div class="icon">
+                <i class="fa fa-envelope-o"></i>
+            </div>
+            <div class="content-inner">
+                principaljcer@gmail.com
+            </div>
+        </div>
+
+
+        <div class="inner-contenar">
+            <div class="icon">
+                <i class="fa fa-clock-o"></i>
+            </div>
+            <div class="content-inner">
+                Mon-Sat: 9 AM – 6 PM
+                Sunday: CLOSED
+            </div>
+        </div>
+
+
+        <div class="inner-contenar">
+            <div class="icon">
+                <i class="fa fa-envelope-o"></i>
+            </div>
+            <div class="content-inner">
+                <a href="https://forms.gle/VMGeVgrzWPZjkput7"> Write your grievances here</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- SHADOW SECTION END-->
+
+
+
+
+
+    <!-- FOOTRER -->
+
+    <div class="footer">
+        <div class="top">
+            <div>
+                <img src="/imgs/logofooter.png" alt="JCER logo" />
+
+
+            </div>
+            <div>
+                <a href="/">
+                    <i class="fa fa-facebook-square"></i>
+
+                </a>
+                <a href="/">
+                    <i class="fa fa-instagram-square"></i>
+                </a>
+                <a href="/">
+                    <i class="fa fa-twitter-square"></i>
+                </a>
+
+            </div>
+
+        </div>
+        <div class="bottom">
+            <div>
+                <h1>Menu</h1>
+                <a href="/principal">Principal</a>
+                <a href="/">Vision And Mission</a>
+                <a href="/">Objectives</a>
+                <a href="https://www.jgi.ac.in/">The JGI Team</a>
+                <a href="https://www.jgi.ac.in/chairman-jgigroup.php">The Chairman</a>
+
+            </div>
+            <div>
+                <h1>Programmes</h1>
+                <a href="civil.html">Civil Engineering</a>
+                <a href="cse.html">Computer Science & Engineering</a>
+                <a href="ec.html">Electrical & Electronics Engineering</a>
+                <a href="/">Mechanical Engineering</a>
+                <a href="/">AI And Machine Learning</a>
+                <a href="/">Basic Science And Humanities</a>
+                <a href="/">Administrative Office</a>
+
+            </div>
+            <div>
+                <h1>Legal</h1>
+                <a href="http://jcer.in/images/Mandatory_Disclosure.pdf">Mandatory Disclosure</a>
+                <a href="http://jcer.in/images/AICTE_Approvals.pdf">AICTE Approvals</a>
+                <a href="/">Privacy Policy</a>
+                <a href="/">Terms & Conditions</a>
+
+
+            </div>
+        </div>
+        <hr>
+        <div class="right">
+
+            All Rights Reserved | Copyrights @ 2020-2021
+
+        </div>
+
+    </div>
+
+    <!-- FOOTRER END-->
+
+
+</body>
+
+</html>
