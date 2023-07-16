@@ -489,7 +489,7 @@ section h2 {
 /* MIDLE SECTION END */
 
 /* RESENT EVNENTS START   */
-.recent-events{
+.recent-events {
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -517,8 +517,8 @@ section h2 {
     background-color: rgb(242 248 249);
     color: black;
     padding: 40px;
-   margin-left: 20px;
-   margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 30px;
     border-radius: 6px;
     box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.4);
@@ -720,7 +720,8 @@ section h2 {
     font-weight: 400;
 
 }
-.wellcometext h1{
+
+.wellcometext h1 {
     text-align: center;
 }
 
@@ -748,20 +749,22 @@ section h2 {
         padding-right: 15px;
         margin-top: 20px
     }
-    .ourstaff{
 
-       height: auto;
-       width: auto;
-       
+    .ourstaff {
+
+        height: auto;
+        width: auto;
+
     }
- 
+
     .wellcometext {
         padding-top: 10px;
         padding-bottom: 20px;
-    
+
     }
-    
+
 }
+
 /*  Department middle end  */
 
 
@@ -795,7 +798,7 @@ section h2 {
     border-right: 1px solid #010101;
 }
 
-.counter-column:last-child{
+.counter-column:last-child {
     border-right: none;
 }
 
@@ -817,30 +820,34 @@ section h2 {
 
 
 @media screen and (max-width:1024px) {
-    .counter-row{
+    .counter-row {
         grid-template-columns: 1fr 1fr;
     }
-    .counter-column{
+
+    .counter-column {
         padding: 32px 0 32px 0;
         border: none;
     }
-    
+
 }
 
 @media screen and (max-width:560px) {
-    .counter{
+    .counter {
 
         padding: 16px 16px 32px 16px;
     }
-    .counter-row{
+
+    .counter-row {
         grid-template-columns: 1fr;
     }
-    .counter-column{
+
+    .counter-column {
         padding: 32px 0 32px 0;
     }
-    
+
 
 }
+
 /* COUNTER END */
 
 
@@ -849,8 +856,7 @@ section h2 {
 
     display: flex;
     width: min-content;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
     justify-content: space-between;
     align-items: center;
 
@@ -863,7 +869,7 @@ section h2 {
     padding: 16px 13px;
     height: 460px;
     width: 350px;
-    margin: 50px 50px;    
+    margin: 25px 50px;
 }
 
 .upper-container {
@@ -966,15 +972,17 @@ p {
 
     .profile-cards {
         padding: 0px 0px;
-        margin: 0;
+       margin: 0;
         flex-direction: column;
+    
     }
 
     .cardProfile {
         width: 330px;
-        margin-top: 40px;
-
+        margin: 20px 20px;
+       
     }
 
 }
+
 /* PROFILE CARDS END   */
